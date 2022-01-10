@@ -1,11 +1,12 @@
 // indexOf(): Takes takes a substring and if the substring exists in a string it returns the first position of the substring if does not exist it returns -1
+let string = '30 Days Of JavaScript';
+let string2 = `Daniel Sarmiento in ${string}`;
 
-string.indexOf(substring)
-let string = '30 Days Of JavaScript'
-console.log(string.indexOf('D'))          // 3
-console.log(string.indexOf('Days'))       // 3
-console.log(string.indexOf('days'))       // -1
-console.log(string.indexOf('a'))          // 4
-console.log(string.indexOf('JavaScript')) // 11
-console.log(string.indexOf('Script'))     //15
-console.log(string.indexOf('script'))     // -1
+let index1 = string2.indexOf(string); //search string in string2
+
+console.log(index1);                  // Expone el resultado 
+console.log(string2[20]);             
+
+console.log([1,2,3,4].flatMap(n=>n*2)); // Saca un Array multipicando cada elementos de la lista de
+
+//first position of a substring

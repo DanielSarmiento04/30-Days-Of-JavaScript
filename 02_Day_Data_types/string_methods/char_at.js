@@ -1,6 +1,8 @@
 // charAt(): Takes index and it returns the value at that index
-string.charAt(index)
-let string = '30 Days Of JavaScript'
-console.log(string.charAt(0)) // 3
-let lastIndex = string.length - 1
-console.log(string.charAt(lastIndex)) // t
+
+let string = '30 Days Of JavaScript';
+let lastIndex = string.length - 1;
+console.log(lastIndex);
+let char = string.charAt('30');
+console.log(char);
+// this is useful for search safely in a string with a number (index).

@@ -2,6 +2,9 @@
 // string.replace(oldsubstring, newsubstring)
 
 let string = '30 Days Of JavaScript'
-console.log(string.replace('JavaScript', 'Python')) // 30 Days Of Python
+
+let nString = string.replace('JavaScript','Python')
+console.log(nString ) // 30 Days Of Python
 let country = 'Finland'
-console.log(country.replace('Fin', 'Noman')) // Nomanland
+let nCountry = country.replace('Fin','@');
+console.log(nCountry); // Nomanland

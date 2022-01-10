@@ -1,5 +1,8 @@
 const PI = Math.PI
 console.log(PI) // 3.141592653589793
+console.log(PI.toFixed(2)) // 3.14 This methos round 2 decimal number for float number to str
+let num1 = PI.toFixed(2)*1;
+console.log(typeof(num1))
 console.log(Math.round(PI)) // 3; to round values to the nearest number
 console.log(Math.round(9.81)) // 10
 console.log(Math.floor(PI)) // 3; rounding down

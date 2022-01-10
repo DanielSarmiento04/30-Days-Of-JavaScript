@@ -4,3 +4,7 @@ let string = 'I love JavaScript. If you do not love JavaScript what else can you
 console.log(string.lastIndexOf('love'))       // 67
 console.log(string.lastIndexOf('you'))        // 63
 console.log(string.lastIndexOf('JavaScript')) // 38
+
+
+let answer1 = string.lastIndexOf('I');
+console.log(answer1);  // test 10
