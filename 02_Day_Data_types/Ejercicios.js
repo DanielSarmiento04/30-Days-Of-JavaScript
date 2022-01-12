@@ -51,4 +51,4 @@ let first = '30 Days of';
 let complete = first.concat(' JavaScript' );
 console.log('complete',complete);
 
-let repeat =complete.repeat(2); 
+let repeat = complete.repeat(2); 
