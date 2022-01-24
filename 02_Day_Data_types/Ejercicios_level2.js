@@ -41,16 +41,15 @@ const Libreria = require('./range.js')
 
 let Matrix = [];
 // Parte de la derecha del objeto
-let vectorC2 = []; // seccion de la columna 2
 let vectorC1 = []; // seccion de la columna 1
 for (let i = 1; i < 6; i++){
     if( i === 1 ){
-        let vector = [1,1,1] ;    
+        let vector = [1,1,1,1] ;    
         Matrix.push(vector);
     }
     else{
         let vector = [];
-        let lista = Libreria.range(1,4);
+        let lista = Libreria.range(0,4);
         for ( const exponente of lista ) {
             let numV = i**exponente;
             vector.push(numV)
@@ -58,11 +57,10 @@ for (let i = 1; i < 6; i++){
         Matrix.push(vector);
     }
     vectorC1.push(i);
-    vectorC2.push(1);
+    
 }
 
-for (var i = 0; i < Matrix.length; i++) {
-    Matrix[i].unshift(vectorC2[i]);
+for (var i = 0; i < Matrix.length; i++) {   
     Matrix[i].unshift(vectorC1[i]);
 }
 

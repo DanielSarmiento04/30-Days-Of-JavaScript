@@ -1,17 +1,43 @@
 <!DOCTYPE html>
 <html>
 
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>30DaysOfJavaScript: 03 Day</title>
 </head>
 
 <body>
     <h1>30DaysOfJavaScript:03 Day</h1>
     <h2>Booleans, undefined, null, date object</h2>
-
+    <p  id = "prueba"> ObtenerFecha()</p>
+    <p  id = "texto"></p>
     <!-- import your scripts here -->
-    <script src="./scripts/main.js"></script>
+    <script>
+        let area =function e (base,altura){
+            return base*altura/2;
+        }
+        function perimetro (a,b,c){
+            let rta =  a + b + c;
+            return rta;
+        }
+        const rango = require('../02_Day_Data_types/range.js');
 
+        // let base = prompt('base');
+        // let altura = prompt('height');
+        // alert(`El area del triangulo es ${area(base,altura)}`);
+        let a = Number(prompt('digite el lado a'));
+        let b = Number(prompt('digite el lado b'));
+        let c = Number(prompt('digite el lado c'));
+        alert(`El perimetro del trangulo es ${perimetro(a,b,c)}`);
+
+    </script>
+    <script src="./scripts/main.js">
+
+    </script>
+    
 </body>
 
 </html>
