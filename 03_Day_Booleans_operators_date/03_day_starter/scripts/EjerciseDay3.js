@@ -56,18 +56,9 @@ console.log('Segundos',segundosTotales);
 
 const rango = require('../../../02_Day_Data_types/range.js');
 
-let string2 = "y = -2 + 2x^2";
-let operaciones = ['+','-','*','/'];
-let numX = string2.match(/x/gi);
-
-let i = 0;
-let conclusion1 = true;  // Que es de grado 1 
-for (const iterator of string2) {
-    if(iterator === "x"){
-        if (string2[i+1]=="^") {
-            conclusion1 = false;  //Encontro una potencia
-        }
-    }
-    i++;
-}
-console.log(conclusion1 );
+console.log("====================================")
+// 03_Day_Booleans_operators_date\03_day_starter\scripts\FuncionV2.js
+let parte3 = require('./FuncionV2.js');
+let stringEcuacion = "y = +2x-3";
+let solucion = parte3.Calculo(stringEcuacion);
+console.log(solucion);
