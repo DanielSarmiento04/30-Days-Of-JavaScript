@@ -12,7 +12,7 @@ function Calculo (ecuacion){
     let contador = 0;
     let subIndex ,desicion,value;
     // Proceso
-    let stringArray = ecuacion.trim().replaceAll(" ","").split("");
+    let stringArray = ecuacion.trim().split("");
     console.log(stringArray);
     
     for (let index = 0; index < stringArray.length; index++) {
