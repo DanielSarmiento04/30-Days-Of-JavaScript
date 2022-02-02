@@ -13,15 +13,25 @@
 <body>
     <h1>Bonjour à tous</h1>
 
-    <form action="(onclick)">
-        <label for="">C'est une label</label>
-        <input type="text">
+    <form class="row g-3 needs-validation" >
+        <div class="col-md-2">
+          <label for="nombre" class="form-label">C'est une label</label>
+          <input type="text" formControlName ="day"  class="form-control" id="day" placeholder="day" required>
+        </div>    
+        <div stryle = "height:50 px">
+                ""
+        </div>  
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit" onClick= "verificar()">Verificar</button>
+        </div>
     </form>
 
+
     <!-- import your scripts here -->
-    <script src="./scripts/main.js"></script>
+    <!-- <script src="./scripts/main.js"></script> -->
     <!-- <script src="./scripts/Level1.js"></script> -->
-    <script src="./scripts/Level2.js"></script>
+    <!-- <script src="./scripts/Level2.js"></script> -->
+    <script src="./index.js"></script>
 </body>
 
 </html>

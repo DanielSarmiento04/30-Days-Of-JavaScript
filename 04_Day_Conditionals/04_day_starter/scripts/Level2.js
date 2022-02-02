@@ -31,7 +31,40 @@
 
 
 // part 2:
+let Grupo1 = {
+    months : 'September,October,November'.toLowerCase().split(','),
+    season : 'autumn'
+}
+let Grupo2 = {
+    months : 'December,January,February'.toLowerCase().split(','),
+    season : 'Winter'
+}
+let Grupo3 = {
+    months :'March,April,May'.toLowerCase().split(','),
+    season : 'Spring'
+}
+let Grupo4 = {
+    months : 'June,July,August'.toLowerCase().split(','),
+    season : 'Summer'
+}
+
+let GeneralList = [Grupo1,Grupo2,Grupo3,Grupo4];
+let month = "April";
+
+for (const lista of GeneralList) {
+    if(lista.months.includes(month.toLowerCase())){
+        console.log(`The season is ${lista.season}.`)
+    }
+}
 
 
-let list1 = 'September,October,November'.split(`,`);
-let list2 = 'December,January,February,'
+let weekend = ['saturday','Sunday'];
+let weekday = ['monday','tuesday','wednesday','thursday','friday'];
+let day = prompt('Please write a DAY');
+if (weekend.includes(day.toLocaleLowerCase()))  alert(`${day}  is from weekend `);    
+else if (weekday.includes(day.toLocaleLowerCase()))  alert(`${day} is from weekday`);
+else alert(`${day} is not a day`);
+
+function verificar(){
+    
+}
