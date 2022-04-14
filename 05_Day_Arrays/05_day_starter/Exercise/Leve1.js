@@ -42,7 +42,7 @@ let CompaniesWithMoreO = [];
 
 itCompanies.forEach(element => {
     let value = element.toLowerCase().match(/o/ig) ;
-    if (value != null && value.length == 2) {
+    if (value != null && value.length == 2) { // it's interesting because value is not necessarily  Array
         CompaniesWithMoreO.push(element);
     }
 });

@@ -6,3 +6,7 @@ string[string.indexOf('t')] = 'g';  //Como se habia visto antes los datos primit
 Array1[0] = 7; 
 console.log(Array1,string,string.indexOf('t'));
 
+let array = [1,2,3,4,5]
+
+let stringArray = array.toString().replace(/,/g, ' ');
+console.log(stringArray,stringArray.length);
