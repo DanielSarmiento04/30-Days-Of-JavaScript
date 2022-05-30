@@ -8,3 +8,6 @@ let response_string = typeof(string) == 'string' ;
 console.log(response);
 console.log(response_string);
 
+let array = Array(3).fill(3);
+array[2] = 2;
+console.log(array);

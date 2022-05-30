@@ -30,4 +30,6 @@ const webTechs = [
 ] // List of web technologies
 
 let stringJoin1 = webTechs.join(" 🐿️   ");
+console.log(webTechs);// natural array of web technologies
+console.log(webTechs.join("🥑", "🧂", "🙈")); // "Hello
 console.log(stringJoin1);
